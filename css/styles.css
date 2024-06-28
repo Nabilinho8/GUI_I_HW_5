@@ -12,7 +12,7 @@ body {
     margin: 0;
     padding: 20px;
     text-align: center;
-    background-image: url('/Users/nabil/Documents/XCode/scrabble testing]/Water.gif'); /* Example texture */
+    background-image: url('Water.gif'); /* Example texture */
 }
 
 
