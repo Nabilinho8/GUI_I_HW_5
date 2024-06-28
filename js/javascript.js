@@ -2,7 +2,7 @@ $(document).ready(function () {
     
     
     // Define the base path for the Scrabble tile images
-    const basePath = '/Users/nabil/Documents/XCode/GUI_I_HW_5/graphics_data/Scrabble_Tiles/';
+    const basePath = 'graphics_data/Scrabble_Tiles/';
 
     // Define the Scrabble tiles with their values, original distribution, and remaining numbers
     const ScrabbleTiles = {
