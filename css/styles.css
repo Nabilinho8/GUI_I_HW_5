@@ -1,0 +1,99 @@
+/*
+ Nabil Barkallah
+ Nabil_Barkallah@student.uml.edu
+ 5/2/2024
+ This file is the CSS styling code for the Scrabble game webpage.
+ */
+
+/* Body styles with background texture */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background-image: url('/Users/nabil/Documents/XCode/scrabble testing]/Water.gif'); /* Example texture */
+}
+
+
+
+/* Header styles */
+h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+
+
+/* Button styles */
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Scrabble board styles */
+#scrabble-board {
+    background-image: url("/Users/nabil/Documents/XCode/GUI_I_HW_5/graphics_data/Scrabble_Board_OneLine.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    width: 1129px; /* Adjusted width for 15 cells */
+    height: 80px; /* Height of one tile */
+    border: 2px solid #000;
+}
+
+.board-cell {
+    width: 80px;
+    height: 80px;
+    border: 1px solid clear;
+    display: inline-block;
+    position: relative;
+}
+/* Letter container styles */
+#letter-container {
+    background-color: #fff;
+    border: 2px solid #000;
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 560px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Error message styles */
+#error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #scrabble-board {
+        max-width: 80%;
+    }
+    #letter-container {
+        max-width: 80%;
+    }
+}
+
+/*
+#letter-container {
+    margin: 20px auto;
+    width: 560px;
+    height: 70px;
+    border: 2px solid #000;
+}
