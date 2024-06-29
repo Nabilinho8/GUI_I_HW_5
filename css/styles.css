@@ -12,7 +12,7 @@ body {
     margin: 0;
     padding: 20px;
     text-align: center;
-    background-image: url('Water.gif'); /* Example texture */
+    background-image: url('GUI_I_HW_5/Water.gif'); /* Example texture */
 }
 
 
@@ -45,7 +45,7 @@ button:hover {
 
 /* Scrabble board styles */
 #scrabble-board {
-    background-image: url("graphics_data/Scrabble_Board_OneLine.png");
+    background-image: url("GUI_I_HW_5/graphics_data/Scrabble_Board_OneLine.png");
     display: flex;
     justify-content: center;
     align-items: center;
